@@ -1,0 +1,374 @@
+{
+  "unitInfos" : [
+   {
+      "x" : 0,
+      "y" : 0,
+      "serialNum" : 0,
+      "adjacent" : "-1 -1 1 6 5 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 0,
+      "serialNum" : 1,
+      "adjacent" : "-1 -1 2 7 6 0"
+   },
+   {
+      "x" : 2,
+      "y" : 0,
+      "serialNum" : 2,
+      "adjacent" : "-1 -1 3 8 7 1"
+   },
+   {
+      "x" : 3,
+      "y" : 0,
+      "serialNum" : 3,
+      "adjacent" : "-1 -1 4 9 8 2"
+   },
+   {
+      "x" : 4,
+      "y" : 0,
+      "serialNum" : 4,
+      "adjacent" : "-1 -1 -1 10 9 3"
+   },
+   {
+      "x" : 0,
+      "y" : 1,
+      "serialNum" : 5,
+      "adjacent" : "-1 0 6 12 11 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 1,
+      "serialNum" : 6,
+      "adjacent" : "0 1 7 13 12 5"
+   },
+   {
+      "x" : 2,
+      "y" : 1,
+      "serialNum" : 7,
+      "adjacent" : "1 2 8 14 13 6"
+   },
+   {
+      "x" : 3,
+      "y" : 1,
+      "serialNum" : 8,
+      "adjacent" : "2 3 9 15 14 7"
+   },
+   {
+      "x" : 4,
+      "y" : 1,
+      "serialNum" : 9,
+      "adjacent" : "3 4 10 16 15 8"
+   },
+   {
+      "x" : 5,
+      "y" : 1,
+      "serialNum" : 10,
+      "adjacent" : "4 -1 -1 17 16 9"
+   },
+   {
+      "x" : 0,
+      "y" : 2,
+      "serialNum" : 11,
+      "adjacent" : "-1 5 12 19 18 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 2,
+      "serialNum" : 12,
+      "adjacent" : "5 6 13 20 19 11"
+   },
+   {
+      "x" : 2,
+      "y" : 2,
+      "serialNum" : 13,
+      "adjacent" : "6 7 14 21 20 12"
+   },
+   {
+      "x" : 3,
+      "y" : 2,
+      "serialNum" : 14,
+      "adjacent" : "7 8 15 22 21 13"
+   },
+   {
+      "x" : 4,
+      "y" : 2,
+      "serialNum" : 15,
+      "adjacent" : "8 9 16 23 22 14"
+   },
+   {
+      "x" : 5,
+      "y" : 2,
+      "serialNum" : 16,
+      "adjacent" : "9 10 17 24 23 15"
+   },
+   {
+      "x" : 6,
+      "y" : 2,
+      "serialNum" : 17,
+      "adjacent" : "10 -1 -1 25 24 16"
+   },
+   {
+      "x" : 0,
+      "y" : 3,
+      "serialNum" : 18,
+      "adjacent" : "-1 11 19 27 26 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 3,
+      "serialNum" : 19,
+      "adjacent" : "11 12 20 28 27 18"
+   },
+   {
+      "x" : 2,
+      "y" : 3,
+      "serialNum" : 20,
+      "adjacent" : "12 13 21 29 28 19"
+   },
+   {
+      "x" : 3,
+      "y" : 3,
+      "serialNum" : 21,
+      "adjacent" : "13 14 22 30 29 20"
+   },
+   {
+      "x" : 4,
+      "y" : 3,
+      "serialNum" : 22,
+      "adjacent" : "14 15 23 31 30 21"
+   },
+   {
+      "x" : 5,
+      "y" : 3,
+      "serialNum" : 23,
+      "adjacent" : "15 16 24 32 31 22"
+   },
+   {
+      "x" : 6,
+      "y" : 3,
+      "serialNum" : 24,
+      "adjacent" : "16 17 25 33 32 23"
+   },
+   {
+      "x" : 7,
+      "y" : 3,
+      "serialNum" : 25,
+      "adjacent" : "17 -1 -1 34 33 24"
+   },
+   {
+      "x" : 0,
+      "y" : 4,
+      "serialNum" : 26,
+      "adjacent" : "-1 18 27 35 -1 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 4,
+      "serialNum" : 27,
+      "adjacent" : "18 19 28 36 35 26"
+   },
+   {
+      "x" : 2,
+      "y" : 4,
+      "serialNum" : 28,
+      "adjacent" : "19 20 29 37 36 27"
+   },
+   {
+      "x" : 3,
+      "y" : 4,
+      "serialNum" : 29,
+      "adjacent" : "20 21 30 38 37 28"
+   },
+   {
+      "x" : 4,
+      "y" : 4,
+      "serialNum" : 30,
+      "adjacent" : "21 22 31 39 38 29"
+   },
+   {
+      "x" : 5,
+      "y" : 4,
+      "serialNum" : 31,
+      "adjacent" : "22 23 32 40 39 30"
+   },
+   {
+      "x" : 6,
+      "y" : 4,
+      "serialNum" : 32,
+      "adjacent" : "23 24 33 41 40 31"
+   },
+   {
+      "x" : 7,
+      "y" : 4,
+      "serialNum" : 33,
+      "adjacent" : "24 25 34 42 41 32"
+   },
+   {
+      "x" : 8,
+      "y" : 4,
+      "serialNum" : 34,
+      "adjacent" : "25 -1 -1 -1 42 33"
+   },
+   {
+      "x" : 0,
+      "y" : 5,
+      "serialNum" : 35,
+      "adjacent" : "26 27 36 43 -1 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 5,
+      "serialNum" : 36,
+      "adjacent" : "27 28 37 44 43 35"
+   },
+   {
+      "x" : 2,
+      "y" : 5,
+      "serialNum" : 37,
+      "adjacent" : "28 29 38 45 44 36"
+   },
+   {
+      "x" : 3,
+      "y" : 5,
+      "serialNum" : 38,
+      "adjacent" : "29 30 39 46 45 37"
+   },
+   {
+      "x" : 4,
+      "y" : 5,
+      "serialNum" : 39,
+      "adjacent" : "30 31 40 47 46 38"
+   },
+   {
+      "x" : 5,
+      "y" : 5,
+      "serialNum" : 40,
+      "adjacent" : "31 32 41 48 47 39"
+   },
+   {
+      "x" : 6,
+      "y" : 5,
+      "serialNum" : 41,
+      "adjacent" : "32 33 42 49 48 40"
+   },
+   {
+      "x" : 7,
+      "y" : 5,
+      "serialNum" : 42,
+      "adjacent" : "33 34 -1 -1 49 41"
+   },
+   {
+      "x" : 0,
+      "y" : 6,
+      "serialNum" : 43,
+      "adjacent" : "35 36 44 50 -1 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 6,
+      "serialNum" : 44,
+      "adjacent" : "36 37 45 51 50 43"
+   },
+   {
+      "x" : 2,
+      "y" : 6,
+      "serialNum" : 45,
+      "adjacent" : "37 38 46 52 51 44"
+   },
+   {
+      "x" : 3,
+      "y" : 6,
+      "serialNum" : 46,
+      "adjacent" : "38 39 47 53 52 45"
+   },
+   {
+      "x" : 4,
+      "y" : 6,
+      "serialNum" : 47,
+      "adjacent" : "39 40 48 54 53 46"
+   },
+   {
+      "x" : 5,
+      "y" : 6,
+      "serialNum" : 48,
+      "adjacent" : "40 41 49 55 54 47"
+   },
+   {
+      "x" : 6,
+      "y" : 6,
+      "serialNum" : 49,
+      "adjacent" : "41 42 -1 -1 55 48"
+   },
+   {
+      "x" : 0,
+      "y" : 7,
+      "serialNum" : 50,
+      "adjacent" : "43 44 51 56 -1 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 7,
+      "serialNum" : 51,
+      "adjacent" : "44 45 52 57 56 50"
+   },
+   {
+      "x" : 2,
+      "y" : 7,
+      "serialNum" : 52,
+      "adjacent" : "45 46 53 58 57 51"
+   },
+   {
+      "x" : 3,
+      "y" : 7,
+      "serialNum" : 53,
+      "adjacent" : "46 47 54 59 58 52"
+   },
+   {
+      "x" : 4,
+      "y" : 7,
+      "serialNum" : 54,
+      "adjacent" : "47 48 55 60 59 53"
+   },
+   {
+      "x" : 5,
+      "y" : 7,
+      "serialNum" : 55,
+      "adjacent" : "48 49 -1 -1 60 54"
+   },
+   {
+      "x" : 0,
+      "y" : 8,
+      "serialNum" : 56,
+      "adjacent" : "50 51 57 -1 -1 -1"
+   },
+   {
+      "x" : 1,
+      "y" : 8,
+      "serialNum" : 57,
+      "adjacent" : "51 52 58 -1 -1 56"
+   },
+   {
+      "x" : 2,
+      "y" : 8,
+      "serialNum" : 58,
+      "adjacent" : "52 53 59 -1 -1 57"
+   },
+   {
+      "x" : 3,
+      "y" : 8,
+      "serialNum" : 59,
+      "adjacent" : "53 54 60 -1 -1 58"
+   },
+   {
+      "x" : 4,
+      "y" : 8,
+      "serialNum" : 60,
+      "adjacent" : "54 55 -1 -1 -1 59"
+   },
+ ],
+  "info" : {
+     "version" : 0.1,
+     "author" : "james.wu"
+ }
+}

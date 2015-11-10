@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" tag="1001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNb-BZ-n7U" userLabel="ToastView">
+                                <rect key="frame" x="175" y="220" width="250" height="160"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9y-2L-blg">
+                                        <rect key="frame" x="10" y="114" width="110" height="30"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="2C8-13-Zj1"/>
+                                            <constraint firstAttribute="height" constant="30" id="Tjo-TK-yMc"/>
+                                        </constraints>
+                                        <state key="normal" title="重新游戏"/>
+                                        <connections>
+                                            <action selector="restartGame:" destination="BV1-FR-VrT" eventType="touchUpInside" id="lgh-va-zlO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKj-Ua-zyE">
+                                        <rect key="frame" x="130" y="114" width="110" height="30"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Lav-Xa-s9i"/>
+                                            <constraint firstAttribute="width" constant="110" id="gSb-EU-hZF"/>
+                                        </constraints>
+                                        <state key="normal" title="分享得分"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="2001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3W-SP-deH">
+                                        <rect key="frame" x="65" y="27" width="120" height="50"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="R1q-WL-kXn"/>
+                                            <constraint firstAttribute="height" constant="50" id="csL-zf-ORD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="rKj-Ua-zyE" secondAttribute="trailing" constant="10" id="CUz-oV-Zdq"/>
+                                    <constraint firstItem="Y3W-SP-deH" firstAttribute="centerX" secondItem="oNb-BZ-n7U" secondAttribute="centerX" id="D5a-Nv-adR"/>
+                                    <constraint firstAttribute="bottom" secondItem="rKj-Ua-zyE" secondAttribute="bottom" constant="16" id="HMM-mT-C6M"/>
+                                    <constraint firstItem="Y3W-SP-deH" firstAttribute="top" secondItem="oNb-BZ-n7U" secondAttribute="top" constant="27" id="aWN-Vz-fHF"/>
+                                    <constraint firstAttribute="width" constant="250" id="bYf-d5-wkO"/>
+                                    <constraint firstAttribute="bottom" secondItem="k9y-2L-blg" secondAttribute="bottom" constant="16" id="eJ9-NG-UXU"/>
+                                    <constraint firstAttribute="height" constant="160" id="nB7-bn-bO4"/>
+                                    <constraint firstItem="k9y-2L-blg" firstAttribute="leading" secondItem="oNb-BZ-n7U" secondAttribute="leading" constant="10" id="tb9-Uq-rc4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oNb-BZ-n7U" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="IZY-Sx-enu"/>
+                            <constraint firstItem="oNb-BZ-n7U" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="Kns-fx-U2X"/>
+                            <constraint firstItem="oNb-BZ-n7U" firstAttribute="centerY" secondItem="3se-qz-xqx" secondAttribute="centerY" id="jPw-Uy-nG3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="popToast" destination="oNb-BZ-n7U" id="CW1-hR-tUB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="509" y="341"/>
+        </scene>
+    </scenes>
+</document>
